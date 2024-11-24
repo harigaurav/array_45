@@ -1,4 +1,8 @@
-//easy sol using two pointers concept
+//LEVEL-EASY*****
+//CONCEPT- TWO POINTERS
+
+
+//SOLUTION----
 
 class Solution{
   public:
