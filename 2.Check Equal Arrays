@@ -1,3 +1,10 @@
+//level- EASY
+//concept- array based hashing or sorting searching 
+
+
+
+
+
 // using map (0.02 seconds)
 class Solution {
   public:
