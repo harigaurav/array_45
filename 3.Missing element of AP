@@ -1,3 +1,9 @@
+LEVEL-EASY
+CONCEPT-BASIC MATHS 
+
+
+// SOLUTION----
+
 class Solution {
   public:
     int findMissing(vector<int> &arr) {
