@@ -4,7 +4,9 @@ Rearrange the given array so that the transformed array arrT[i] becomes arr[arr[
 
 
 //LEVEL----MEDIUM*****
-//CONCEPT--
+//CONCEPT--//CONCEPT----DIVIDEND=(QUOTIENT*DIVISOR)+REMAINDER;
+//DIVIDEND/DIVISOR=QUOTIENT;
+//DIVIDEND % DIVISOR=REMAINDER;
 
 
 
