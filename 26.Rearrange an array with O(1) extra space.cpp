@@ -3,5 +3,25 @@ Rearrange the given array so that the transformed array arrT[i] becomes arr[arr[
 
 
 
-//LEVEL----
+//LEVEL----MEDIUM*****
 //CONCEPT--
+
+
+
+//SOLUTION---
+    
+
+class Solution{
+    public:
+    
+    void arrange(long long arr[], int n) {
+        // Your code here
+         for (int i=0; i < n; i++) 
+        arr[i] += (arr[arr[i]]%n)*n; 
+ 
+    for (int i=0; i<n; i++) 
+        arr[i] /= n; 
+    
+        
+    }
+};
