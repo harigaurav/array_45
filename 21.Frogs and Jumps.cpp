@@ -8,9 +8,30 @@ leaves that not be visited by any of the frogs when all frogs have reached the o
 pond. */
 
 
-//level--
-//concept---
+//level--easy******************************************************************88
+//concept---USING SETS INSTED OF HASHMAPS;
 
 
 
-//solution--
+//solution--//User function Template for C++
+
+class Solution {
+  public:
+    int unvisitedLeaves(int N, int leaves, int frogs[]) {
+        // Code here
+        int count=0;
+       unordered_set<int>mp;
+        for(int i=0;i<N;i++){
+            int j=frogs[i];
+              if(mp.find(j)==mp.end()){
+            while(j<=leaves){
+                mp.insert(j);
+                j+=frogs[i];
+            }
+              }
+            
+        }
+        int k=mp.size();
+        return leaves-k;
+    }
+};
